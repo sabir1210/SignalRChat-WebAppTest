@@ -1,3 +1,7 @@
+// backend code and front end for real time chat, 
+#webproject @webapiproject for both.
+
+
 app.UseCors(options => options.WithOrigins("http://localhost:8080").AllowAnyMethod()
                          .AllowAnyHeader()
                          .AllowCredentials()); 
